@@ -1,6 +1,6 @@
 import { profile, links, cv, projects, skills, about, experience } from './data/portfolio'
 import { useState } from 'react'
-import Intro from './components/intro'
+import Intro from './components/Intro.jsx'
 import { PLAY_INTRO } from './lib/intro'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
