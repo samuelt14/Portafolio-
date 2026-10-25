@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samuel | Desarrollador Full Stack Junior</title>
+    <meta name="description" content="Portafolio de Samuel, desarrollador Full Stack Junior: React, Python y bases de datos Oracle y PostgreSQL." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Samuel Torres | Desarrollador Full Stack Junior" />
+    <meta property="og:description" content="Proyectos, habilidades y contacto. React, Python, Oracle y PostgreSQL." />
+    <meta property="og:locale" content="es_CO" />
+    <meta name="theme-color" content="#0a0b10" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // Tema antes del primer pintado (evita parpadeo). Preferencia guardada o del sistema.
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript><p style="padding:2rem;font-family:sans-serif">Este portafolio necesita JavaScript para mostrarse.</p></noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
